@@ -1,0 +1,17 @@
+﻿<UserControl x:Class="PatientManagement.TMS.Views.ViewB"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:local="clr-namespace:PatientManagement.TMS.Views"
+             MinHeight="250" MinWidth="350" >
+    
+    <UserControl.Resources>
+        <ResourceDictionary Source="../Styles/Theme.xaml">
+
+        </ResourceDictionary>
+    </UserControl.Resources>
+    <Grid>
+        <TextBlock Text="This is TMS" FontSize="32" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+    </Grid>
+</UserControl>

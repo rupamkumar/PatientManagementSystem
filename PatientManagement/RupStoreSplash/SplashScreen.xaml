@@ -1,0 +1,19 @@
+﻿<Window x:Class="RupStoreSplash.SplashScreen"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:RupStoreSplash"
+        mc:Ignorable="d"
+        Title="Virtual Hospital" Height="236" Width="550"  WindowStartupLocation="CenterScreen" WindowStyle="None" 
+        Background="#333333" BorderBrush="#002233" BorderThickness="1" ShowInTaskbar="False" ResizeMode="NoResize">
+    <Grid>
+        <Label Margin="19,22,17,80" Name="label1" FontSize="40" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Foreground="MintCream">
+            <Label.BitmapEffect>
+                <OuterGlowBitmapEffect GlowSize="15" />
+            </Label.BitmapEffect> Virtual Hospital
+        </Label>
+        <Label Height="28" Margin="19,0,17,15" Name="label2" VerticalAlignment="Bottom" FontSize="12"
+               Content="{Binding Source={x:Static local:MessageListener.Instance},Path=Message}" Foreground="White"></Label>
+    </Grid>
+</Window>

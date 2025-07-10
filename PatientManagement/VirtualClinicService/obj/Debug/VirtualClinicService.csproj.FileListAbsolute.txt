@@ -1,0 +1,16 @@
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\VirtualClinicService.exe.config
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\VirtualClinicService.exe
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\VirtualClinicService.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\DataAccess.Contracts.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\DataAccess.Services.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\DataAccess.Contracts.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\DataAccess.Services.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\bin\Debug\DataAccess.Services.dll.config
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.csprojAssemblyReference.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.ClinicManagerService.resources
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.ProjectInstaller.resources
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.csproj.GenerateResource.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.csproj.CoreCompileInputs.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.csproj.CopyComplete
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.exe
+C:\VS_TFS\PatientManagementSystem\PatientManagement\VirtualClinicService\obj\Debug\VirtualClinicService.pdb

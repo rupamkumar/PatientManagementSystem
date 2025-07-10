@@ -1,0 +1,14 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                   >
+
+
+    <SolidColorBrush x:Key="MenuForegroundBrush" Color="#333333"/>
+    <SolidColorBrush x:Key="MenuBackgroundBrush" Color="#CCCCCC"/>
+
+    <Style TargetType="Menu">
+        <Setter Property="Foreground" Value="{StaticResource MenuForegroundBrush}"/>
+        <Setter Property="Background" Value="{StaticResource MenuBackgroundBrush}"/>
+    </Style>
+
+</ResourceDictionary>

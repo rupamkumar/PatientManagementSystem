@@ -1,0 +1,5 @@
+C:\VS_TFS\PatientManagementSystem\PatientManagement\PatientManagement.WCF.Proxies\bin\Debug\PatientManagement.WCF.Proxies.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\PatientManagement.WCF.Proxies\bin\Debug\PatientManagement.WCF.Proxies.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\PatientManagement.WCF.Proxies\obj\Debug\PatientManagement.WCF.Proxies.csproj.CoreCompileInputs.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\PatientManagement.WCF.Proxies\obj\Debug\PatientManagement.WCF.Proxies.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\PatientManagement.WCF.Proxies\obj\Debug\PatientManagement.WCF.Proxies.pdb

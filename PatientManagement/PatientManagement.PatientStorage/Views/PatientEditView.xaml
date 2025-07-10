@@ -1,0 +1,102 @@
+﻿<UserControl x:Class="PatientManagement.PatientStorage.Views.PatientEditView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+             xmlns:behaviors="clr-namespace:Infrastructure.Behaviors;assembly=Infrastructure"
+             xmlns:controls="clr-namespace:PatientManagement.PatientStorage.Views.Controls"
+             mc:Ignorable="d" 
+             d:DesignHeight="350" d:DesignWidth="700" Background="#333333">
+    
+    <UserControl.Resources>
+        <ResourceDictionary Source="../Styles/Theme.xaml">          
+               
+        </ResourceDictionary>
+    </UserControl.Resources>   
+   
+    <Grid>        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition Width="10"/>
+            <ColumnDefinition Width="Auto"/>
+            <ColumnDefinition Width="200"/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label  Content="Firstname" Margin="5"/>
+        <TextBox  Text="{Binding Patient.FirstName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Column="1"/> 
+
+        <Label Content="Lastname" Grid.Row="2" Margin="5"/>
+        <TextBox Text="{Binding Patient.LastName,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="1"/> 
+
+        <Label Content="DOB" Grid.Row="3" Margin="5"/>
+        <DatePicker SelectedDate="{Binding Patient.BirthDate,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="1"/> 
+
+        <Label Content="Is Serious" Grid.Row="4" Margin="5 0"/>
+        <CheckBox   Grid.Row="4" VerticalAlignment="Center" HorizontalAlignment="Left"  Grid.Column="1" IsChecked="{Binding Patient.IsSerious,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"/>
+        
+
+        <Label Content="Department" Grid.Row="5" Margin="5"/>
+        <ComboBox ItemsSource="{Binding PatientDepartmentLookup}"
+                      DisplayMemberPath="DisplayValue"
+                      SelectedValuePath="Id"
+                      SelectedValue="{Binding Patient.PatientDepartmentId,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"
+                     Grid.Row="5" Grid.Column="1" VerticalAlignment="Center">            
+        </ComboBox>       
+        
+        <Label Content="Street Number" Grid.Column="3" Margin="5"/>
+        <TextBox Text="{Binding Patient.Address.StreetNumber,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Column="4"/> 
+
+        <Label Content="Street" Grid.Row="2" Grid.Column="3" Margin="5"/>
+        <TextBox Text="{Binding Patient.Address.Street,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="2" Grid.Column="4"/>
+
+        <Label Content="City" Grid.Row="3" Grid.Column="3" Margin="5"/>
+        <TextBox Text="{Binding Patient.Address.City,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Grid.Row="3" Grid.Column="4"/>
+        
+        <StackPanel Grid.Row="6" >
+            <Label Content="Visits" Margin="5" VerticalAlignment="Top"/>
+            <Button  Command="{Binding AddVisitCommand}"  HorizontalAlignment="Right" Style="{StaticResource AddButtonStyle}"/> <!--Style="{StaticResource AddButtonStyle}"-->
+            <Button Command="{Binding DeleteVisitCommand}"   HorizontalAlignment="Right" Style="{StaticResource RemoveButtonStyle}"/> <!--Style="{StaticResource RemoveButtonStyle}"-->
+        </StackPanel>
+        <DataGrid  Name="VisitsGrid" ItemsSource="{Binding Patient.Visits}" SelectedItem="{Binding SelectedVisit,Mode=TwoWay}" Grid.Row="6" behaviors:DataGridChangeBehaviors.IsActive="True"
+              Grid.Column="1" Grid.ColumnSpan="4" Margin="0 5 0 0" Width="538">
+            <!--behaviors:DataGridChangeBehavior.IsActive="True"-->
+            <DataGrid.Columns>
+                <DataGridTemplateColumn Header="Doctor" Width="Auto">
+                    <DataGridTemplateColumn.CellTemplate>
+                        <DataTemplate>
+                            <ComboBox ItemsSource="{Binding RelativeSource={RelativeSource AncestorType=UserControl}, Path=DataContext.DoctorLookup}"
+                      DisplayMemberPath="DisplayValue"
+                      SelectedValuePath="Id" SelectedValue="{Binding Doctor.DoctorId,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}"                                       
+                     Grid.Row="5" Grid.Column="4" VerticalAlignment="Center">
+                            </ComboBox>
+                        </DataTemplate>
+                    </DataGridTemplateColumn.CellTemplate>
+                </DataGridTemplateColumn>
+                
+                <DataGridTextColumn Header="Notes" Binding="{Binding Notes,Mode=TwoWay,UpdateSourceTrigger=PropertyChanged}" Width="Auto"/>
+            </DataGrid.Columns>
+        </DataGrid>
+
+        <controls:ChangeTrackingCollectionInfo DataContext="{Binding Patient.Visits, ValidatesOnNotifyDataErrors=True}"
+       Grid.Row="7" Grid.Column="1" Grid.ColumnSpan="4"/>
+
+        <StackPanel Grid.Row="8" Grid.ColumnSpan="4" Orientation="Horizontal" HorizontalAlignment="Left" VerticalAlignment="Bottom">
+            <Button Content="Save" Command="{Binding SaveCommand}" Margin="5"/>
+            <Button Content="Reset" Command="{Binding ResetCommand}" Margin="5"/>
+            <!--<Button Content="Delete" Command="{Binding DeleteCommand}" Margin="5"/>-->
+        </StackPanel>
+    </Grid>
+</UserControl>

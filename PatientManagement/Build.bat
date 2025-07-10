@@ -1,0 +1,1 @@
+MSBuild PatientManagementSystem.sln /target:Build

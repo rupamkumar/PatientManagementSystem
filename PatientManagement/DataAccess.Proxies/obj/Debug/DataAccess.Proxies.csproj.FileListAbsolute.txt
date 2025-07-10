@@ -1,0 +1,15 @@
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\DataAccess.Proxies.dll
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\DataAccess.Proxies.pdb
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\DataAccess.Contracts.dll
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\PatientManagement.Model.dll
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\RupStoreCore.Common.dll
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\DataAccess.Contracts.pdb
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\PatientManagement.Model.pdb
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\bin\Debug\RupStoreCore.Common.pdb
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.csproj.CoreCompileInputs.cache
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.csproj.CopyComplete
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.dll
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.pdb
+C:\VS_TFS\SQLServer\PMSDatabase\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.csprojAssemblyReference.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.csprojAssemblyReference.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\DataAccess.Proxies\obj\Debug\DataAccess.Proxies.csproj.CoreCompileInputs.cache

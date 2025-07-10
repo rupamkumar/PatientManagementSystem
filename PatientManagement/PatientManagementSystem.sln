@@ -1,0 +1,225 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27703.2035
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.PatientVault", "PatientManagement.PatientVault\PatientManagement.PatientVault.csproj", "{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}"
+	ProjectSection(ProjectDependencies) = postProject
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E} = {313A4329-AE9C-4444-8CF5-3E087FD5926E}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{D6CEE52E-CA78-4D15-B074-36853FE5E3B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagementUI", "PatientManagementUI\PatientManagementUI.csproj", "{434CCC35-AF98-43C3-BD8A-479648953F9C}"
+	ProjectSection(ProjectDependencies) = postProject
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E} = {313A4329-AE9C-4444-8CF5-3E087FD5926E}
+		{D6CEE52E-CA78-4D15-B074-36853FE5E3B1} = {D6CEE52E-CA78-4D15-B074-36853FE5E3B1}
+		{78660A66-A4FF-4031-A88F-0244B6A3C1C8} = {78660A66-A4FF-4031-A88F-0244B6A3C1C8}
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3} = {9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB} = {BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Controls", "PatientManagement.Controls\PatientManagement.Controls.csproj", "{78660A66-A4FF-4031-A88F-0244B6A3C1C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.PatientVault.Tests", "PatientManagement.PatientVault.Tests\PatientManagement.PatientVault.Tests.csproj", "{AF2375BE-83D0-4EE0-A1A9-248C75AFDBF1}"
+	ProjectSection(ProjectDependencies) = postProject
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3} = {9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Modules", "Modules", "{27A91C5A-8DF9-4AA8-8BD9-3A32273C975B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.TMS", "PatientManagement.TMS\PatientManagement.TMS.csproj", "{313A4329-AE9C-4444-8CF5-3E087FD5926E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.PatientStorage", "PatientManagement.PatientStorage\PatientManagement.PatientStorage.csproj", "{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "RupStoreCore", "RupStoreCore", "{9FAA0457-2D5C-409A-9616-7A3AA3C1C654}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RupStoreCore.Common", "RupStoreCore.Common\RupStoreCore.Common.csproj", "{923C2D2C-D8B6-4E5E-BE7E-206102924368}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RupStoreSplash", "RupStoreSplash\RupStoreSplash.csproj", "{60F79718-D881-4CFC-9759-AF1B6C62BCD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.CommandCentre", "PatientManagement.CommandCentre\PatientManagement.CommandCentre.csproj", "{8E003F0C-DE34-420A-B031-67D94529D4A1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PatientManagement.Administration", "PatientManagement.Administration\PatientManagement.Administration.csproj", "{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Contracts", "DataAccess.Contracts\DataAccess.Contracts.csproj", "{DC8C8E6A-F96B-41FE-83D5-954F03B3E47E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Proxies", "DataAccess.Proxies\DataAccess.Proxies.csproj", "{3261C498-4201-4B7D-9A9E-E07AC40C93F0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Services", "DataAccess.Services\DataAccess.Services.csproj", "{C20BAFD5-101F-4FAC-B2D4-A6C446E6B93F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.Client.Bootstrapper", "DataAccess.Client.Bootstrapper\DataAccess.Client.Bootstrapper.csproj", "{2B002DE8-7CCE-42A1-9A46-F6855517908A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataAccess.ConsoleHost", "DataAccess.ConsoleHost\DataAccess.ConsoleHost.csproj", "{C30E0F48-2EF7-4799-BCB9-57DF92BE5C56}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VirtualClinicService", "VirtualClinicService\VirtualClinicService.csproj", "{183AB70D-028F-42C3-A42A-A4697A8262CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RupStoreAuthentication", "RupStoreAuthentication\RupStoreAuthentication.csproj", "{A106C306-A1A0-4E81-933F-C64427D3FDBB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RupStoreAccessToken", "RupStoreAccessToken\RupStoreAccessToken.csproj", "{BC12D1DF-6CF6-4C9B-B7D9-B01235658506}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B942B81-A0E7-4D2D-B9F3-28E5A5370EB3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6CEE52E-CA78-4D15-B074-36853FE5E3B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6CEE52E-CA78-4D15-B074-36853FE5E3B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6CEE52E-CA78-4D15-B074-36853FE5E3B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6CEE52E-CA78-4D15-B074-36853FE5E3B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{434CCC35-AF98-43C3-BD8A-479648953F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{434CCC35-AF98-43C3-BD8A-479648953F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{434CCC35-AF98-43C3-BD8A-479648953F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{434CCC35-AF98-43C3-BD8A-479648953F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{78660A66-A4FF-4031-A88F-0244B6A3C1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{78660A66-A4FF-4031-A88F-0244B6A3C1C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{78660A66-A4FF-4031-A88F-0244B6A3C1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{78660A66-A4FF-4031-A88F-0244B6A3C1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AF2375BE-83D0-4EE0-A1A9-248C75AFDBF1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AF2375BE-83D0-4EE0-A1A9-248C75AFDBF1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AF2375BE-83D0-4EE0-A1A9-248C75AFDBF1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AF2375BE-83D0-4EE0-A1A9-248C75AFDBF1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{923C2D2C-D8B6-4E5E-BE7E-206102924368}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{923C2D2C-D8B6-4E5E-BE7E-206102924368}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{923C2D2C-D8B6-4E5E-BE7E-206102924368}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{923C2D2C-D8B6-4E5E-BE7E-206102924368}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60F79718-D881-4CFC-9759-AF1B6C62BCD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60F79718-D881-4CFC-9759-AF1B6C62BCD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60F79718-D881-4CFC-9759-AF1B6C62BCD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60F79718-D881-4CFC-9759-AF1B6C62BCD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E003F0C-DE34-420A-B031-67D94529D4A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E003F0C-DE34-420A-B031-67D94529D4A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E003F0C-DE34-420A-B031-67D94529D4A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E003F0C-DE34-420A-B031-67D94529D4A1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC8C8E6A-F96B-41FE-83D5-954F03B3E47E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC8C8E6A-F96B-41FE-83D5-954F03B3E47E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC8C8E6A-F96B-41FE-83D5-954F03B3E47E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC8C8E6A-F96B-41FE-83D5-954F03B3E47E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3261C498-4201-4B7D-9A9E-E07AC40C93F0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3261C498-4201-4B7D-9A9E-E07AC40C93F0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3261C498-4201-4B7D-9A9E-E07AC40C93F0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3261C498-4201-4B7D-9A9E-E07AC40C93F0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C20BAFD5-101F-4FAC-B2D4-A6C446E6B93F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C20BAFD5-101F-4FAC-B2D4-A6C446E6B93F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C20BAFD5-101F-4FAC-B2D4-A6C446E6B93F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C20BAFD5-101F-4FAC-B2D4-A6C446E6B93F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B002DE8-7CCE-42A1-9A46-F6855517908A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B002DE8-7CCE-42A1-9A46-F6855517908A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B002DE8-7CCE-42A1-9A46-F6855517908A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B002DE8-7CCE-42A1-9A46-F6855517908A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30E0F48-2EF7-4799-BCB9-57DF92BE5C56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30E0F48-2EF7-4799-BCB9-57DF92BE5C56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30E0F48-2EF7-4799-BCB9-57DF92BE5C56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30E0F48-2EF7-4799-BCB9-57DF92BE5C56}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183AB70D-028F-42C3-A42A-A4697A8262CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183AB70D-028F-42C3-A42A-A4697A8262CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183AB70D-028F-42C3-A42A-A4697A8262CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183AB70D-028F-42C3-A42A-A4697A8262CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A106C306-A1A0-4E81-933F-C64427D3FDBB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A106C306-A1A0-4E81-933F-C64427D3FDBB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A106C306-A1A0-4E81-933F-C64427D3FDBB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A106C306-A1A0-4E81-933F-C64427D3FDBB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC12D1DF-6CF6-4C9B-B7D9-B01235658506}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC12D1DF-6CF6-4C9B-B7D9-B01235658506}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC12D1DF-6CF6-4C9B-B7D9-B01235658506}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC12D1DF-6CF6-4C9B-B7D9-B01235658506}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{313A4329-AE9C-4444-8CF5-3E087FD5926E} = {27A91C5A-8DF9-4AA8-8BD9-3A32273C975B}
+		{BEA5C2B6-21B3-424D-976F-6E2B8EFC3CBB} = {27A91C5A-8DF9-4AA8-8BD9-3A32273C975B}
+		{923C2D2C-D8B6-4E5E-BE7E-206102924368} = {9FAA0457-2D5C-409A-9616-7A3AA3C1C654}
+		{8E003F0C-DE34-420A-B031-67D94529D4A1} = {27A91C5A-8DF9-4AA8-8BD9-3A32273C975B}
+		{1BA7F6A2-D02E-4F77-AC2A-23F19AF57E6B} = {27A91C5A-8DF9-4AA8-8BD9-3A32273C975B}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A8C72559-E875-4A10-A510-D0C27B63E812}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 20
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://win-2012:8080/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Infrastructure\\Infrastructure.csproj
+		SccProjectName1 = Infrastructure
+		SccLocalPath1 = Infrastructure
+		SccProjectUniqueName2 = PatientManagement.Controls\\PatientManagement.Controls.csproj
+		SccProjectName2 = PatientManagement.Controls
+		SccLocalPath2 = PatientManagement.Controls
+		SccProjectUniqueName3 = PatientManagement.PatientVault.Tests\\PatientManagement.PatientVault.Tests.csproj
+		SccProjectName3 = PatientManagement.PatientVault.Tests
+		SccLocalPath3 = PatientManagement.PatientVault.Tests
+		SccProjectUniqueName4 = PatientManagement.PatientVault\\PatientManagement.PatientVault.csproj
+		SccProjectName4 = PatientManagement.PatientVault
+		SccLocalPath4 = PatientManagement.PatientVault
+		SccProjectUniqueName5 = PatientManagementUI\\PatientManagementUI.csproj
+		SccProjectName5 = PatientManagementUI
+		SccLocalPath5 = PatientManagementUI
+		SccProjectUniqueName6 = PatientManagement.PatientStorage\\PatientManagement.PatientStorage.csproj
+		SccProjectTopLevelParentUniqueName6 = PatientManagementSystem.sln
+		SccProjectName6 = PatientManagement.PatientStorage
+		SccLocalPath6 = PatientManagement.PatientStorage
+		SccProjectUniqueName7 = RupStoreCore.Common\\RupStoreCore.Common.csproj
+		SccProjectTopLevelParentUniqueName7 = PatientManagementSystem.sln
+		SccProjectName7 = RupStoreCore.Common
+		SccLocalPath7 = RupStoreCore.Common
+		SccProjectUniqueName8 = RupStoreSplash\\RupStoreSplash.csproj
+		SccProjectName8 = RupStoreSplash
+		SccLocalPath8 = RupStoreSplash
+		SccProjectUniqueName9 = PatientManagement.CommandCentre\\PatientManagement.CommandCentre.csproj
+		SccProjectTopLevelParentUniqueName9 = PatientManagementSystem.sln
+		SccProjectName9 = PatientManagement.CommandCentre
+		SccLocalPath9 = PatientManagement.CommandCentre
+		SccProjectUniqueName10 = PatientManagement.TMS\\PatientManagement.TMS.csproj
+		SccProjectTopLevelParentUniqueName10 = PatientManagementSystem.sln
+		SccProjectName10 = PatientManagement.TMS
+		SccLocalPath10 = PatientManagement.TMS
+		SccProjectUniqueName11 = PatientManagement.Administration\\PatientManagement.Administration.csproj
+		SccProjectTopLevelParentUniqueName11 = PatientManagementSystem.sln
+		SccProjectName11 = PatientManagement.Administration
+		SccLocalPath11 = PatientManagement.Administration
+		SccProjectUniqueName12 = DataAccess.Contracts\\DataAccess.Contracts.csproj
+		SccProjectName12 = DataAccess.Contracts
+		SccLocalPath12 = DataAccess.Contracts
+		SccProjectUniqueName13 = DataAccess.Proxies\\DataAccess.Proxies.csproj
+		SccProjectName13 = DataAccess.Proxies
+		SccLocalPath13 = DataAccess.Proxies
+		SccProjectUniqueName14 = DataAccess.Services\\DataAccess.Services.csproj
+		SccProjectName14 = DataAccess.Services
+		SccLocalPath14 = DataAccess.Services
+		SccProjectUniqueName15 = DataAccess.Client.Bootstrapper\\DataAccess.Client.Bootstrapper.csproj
+		SccProjectName15 = DataAccess.Client.Bootstrapper
+		SccLocalPath15 = DataAccess.Client.Bootstrapper
+		SccProjectUniqueName16 = DataAccess.ConsoleHost\\DataAccess.ConsoleHost.csproj
+		SccProjectName16 = DataAccess.ConsoleHost
+		SccLocalPath16 = DataAccess.ConsoleHost
+		SccProjectUniqueName17 = VirtualClinicService\\VirtualClinicService.csproj
+		SccProjectName17 = VirtualClinicService
+		SccLocalPath17 = VirtualClinicService
+		SccProjectUniqueName18 = RupStoreAuthentication\\RupStoreAuthentication.csproj
+		SccProjectName18 = RupStoreAuthentication
+		SccLocalPath18 = RupStoreAuthentication
+		SccProjectUniqueName19 = RupStoreAccessToken\\RupStoreAccessToken.csproj
+		SccProjectName19 = RupStoreAccessToken
+		SccLocalPath19 = RupStoreAccessToken
+	EndGlobalSection
+EndGlobal

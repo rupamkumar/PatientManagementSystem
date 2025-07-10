@@ -1,0 +1,12 @@
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\RupStoreAccessToken.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\RupStoreAccessToken.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\Newtonsoft.Json.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\RupStoreCore.Common.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\RupStoreCore.Common.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\Newtonsoft.Json.pdb
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\bin\Debug\Newtonsoft.Json.xml
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\obj\Debug\RupStoreAccessToken.csprojAssemblyReference.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\obj\Debug\RupStoreAccessToken.csproj.CoreCompileInputs.cache
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\obj\Debug\RupStoreAccessToken.csproj.CopyComplete
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\obj\Debug\RupStoreAccessToken.dll
+C:\VS_TFS\PatientManagementSystem\PatientManagement\RupStoreAccessToken\obj\Debug\RupStoreAccessToken.pdb
