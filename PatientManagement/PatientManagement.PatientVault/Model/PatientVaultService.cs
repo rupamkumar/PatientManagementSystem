@@ -22,30 +22,30 @@ namespace PatientManagement.PatientVault.Model
                 new Patient
                 {
                     Id = Guid.Parse("5C5BC399-F03F-4301-B314-2D70C1FF2306"),
-                    LastName = "McCalvey",
-                    FirstName = "Peter",
+                    LastName = "sarkar",
+                    FirstName = "test",
                     DOB = DateTime.Parse("1875/05/05"),
                     Gender = "Male",
-                    Email = "Peter.McCalvey@health.wa.gov.au"
+                    Email = "test.sarkar@health.wa.gov.au"
                 },
                  new Patient
                 {
 
                     Id = Guid.Parse("D84FF2F9-144C-4357-8DC7-785394FC99A6"),
-                    LastName = "Zaba",
-                    FirstName = "Simon",
+                    LastName = "test",
+                    FirstName = "test3",
                     DOB = DateTime.Parse("2015/05/05"),
                     Gender = "Male",
-                    Email = "Simon.Zaba@primary.com.au"
+                    Email = "test3.test@primary.com.au"
                 },
                   new Patient
                 {
                     Id =  Guid.Parse("687E0458-A3B2-4688-8CEE-BD0E63A01C10"),
-                    LastName = "Beltman",
+                    LastName = "test",
                     FirstName = "John",
                     DOB = DateTime.Parse("2017/05/05"),
                     Gender = "Male",
-                    Email = "John.Beltman@primary.com.au"
+                    Email = "John.test@primary.com.au"
                 }
             };
         }
