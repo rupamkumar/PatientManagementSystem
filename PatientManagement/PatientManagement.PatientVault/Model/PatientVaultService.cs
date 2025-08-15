@@ -79,27 +79,27 @@ namespace PatientManagement.PatientVault.Model
 
                 new Patient
                 {
-                    LastName = "McCalvey",
-                    FirstName = "Peter",
+                    LastName = "sarkar",
+                    FirstName = "te",
                     DOB = DateTime.Parse("1875/05/05"),
                     Gender = "Male",
-                    Email = "Peter.McCalvey@health.wa.gov.au"
+                    Email = "test.sarkar@health.wa.gov.au"
                 },
                  new Patient
                 {
-                    LastName = "Zaba",
-                    FirstName = "Simon",
+                    LastName = "test",
+                    FirstName = "test3",
                     DOB = DateTime.Parse("2015/05/05"),
                     Gender = "Male",
-                    Email = "Simon.Zaba@primary.com.au"
+                    Email = "test3.test@primary.com.au"
                 },
                   new Patient
                 {
-                    LastName = "Beltman",
+                    LastName = "test",
                     FirstName = "John",
                     DOB = DateTime.Parse("2017/05/05"),
                     Gender = "Male",
-                    Email = "John.Beltman@primary.com.au"
+                    Email = "John.test@primary.com.au"
                 }
             };
             return patients;
